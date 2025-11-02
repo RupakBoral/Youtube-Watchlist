@@ -1,0 +1,14 @@
+CREATE TABLE user_info (
+    id uuid PRIMARY KEY,
+    name VARCHAR,
+    user_name VARCHAR
+);
+
+
+CREATE TABLE watchlist (
+    id uuid PRIMARY KEY,
+    name VARCHAR,
+    url VARCHAR,
+    deadline DATE
+);
+
