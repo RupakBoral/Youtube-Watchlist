@@ -2,7 +2,7 @@ import logging
 import uvicorn
 from fastapi import FastAPI, Request, Response
 from app.connectDB import connectDB, get_connection, get_cursor
-from app.db_functions import get_all_user, get_all_watchlist_info, get_my_watchlist, get_user, create_user, create_my_watchlist
+from app.utils import get_all_user, get_all_watchlist_info, get_my_watchlist, get_user, create_user, create_my_watchlist
 from app.models import UserDetails, WatchlistDetails
 
 logging.basicConfig(
